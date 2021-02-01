@@ -1,0 +1,5 @@
+/css/*.map
+/js/*.map
+/css/*.min.map
+/js/*.min.map
+.htaccess

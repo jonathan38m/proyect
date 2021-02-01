@@ -1,0 +1,96 @@
+.accordion {
+    > .card {
+        overflow: visible;
+    }
+}
+.card {
+    &:hover {
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    }
+}
+.card-footer {
+    background: $blue;
+}
+.card-title {
+    border-left: 5px solid #f2d569;
+    padding-left: 5px;
+    margin-bottom: 0;
+    margin-left: 5px;
+    line-height: 30px;
+}
+
+.icon-img {
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    img {
+        height: 30px;
+    }
+}
+
+.destination-home {
+    background-repeat: no-repeat;
+    background-size: auto 101%;
+    background-position: center;
+    min-height: 100px;
+}
+
+.d-quito {
+    .destination-home {
+        background-image: url("/images/destinations/home/quito.jpg");
+    }
+    .icon-img img{
+        height: 25px;
+    }
+}
+.d-otavalo {
+    .destination-home {
+        background-image: url("/images/destinations/home/otavalo.jpg");
+        background-position-x: 80%;
+    }
+}
+.d-amazon {
+    .destination-home {
+        background-image: url("/images/destinations/home/amazon.jpg");
+        background-position-x: 85%;
+    }
+    .icon-img img{
+        height: 25px;
+    }
+}
+.d-galapagos {
+    .destination-home {
+        background-image: url("/images/destinations/home/galapagos.jpg");
+    }
+    .icon-img img{
+        height: 20px;
+    }
+}
+.d-travelling {
+    .destination-home {
+        background-image: url("/images/destinations/home/travelling.jpg");
+        background-position-x: 28%;
+    }
+    .icon-img img{
+        height: 27px;
+    }
+}
+.d-program {
+    .destination-home {
+        background-image: url("/images/destinations/home/program.jpg");
+        background-position-x: 10%;
+    }
+    .icon-img img{
+        height: 22px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .destination-home {
+        background-size: 100%;
+        background-position-y: center;
+    }
+    .d-amazon .destination-home{
+        background-position-y: top ;
+    }
+}

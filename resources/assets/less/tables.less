@@ -1,0 +1,45 @@
+.table-striped {
+  > tbody > tr:nth-of-type(odd) {
+    //background-color: @table-bg-accent;
+    background-color: #3578a8;
+    color: #FFF;
+  }
+}
+
+table.price-table
+{
+    > thead,
+    > tfoot
+    {
+        background: #FFC000;
+        > tr > td
+        {
+            color: #FFF;
+        }
+    }
+    > tbody
+    {
+        background: #FEE433;
+    }
+    tr > td
+    {
+        vertical-align: middle;
+        border-color: #FFF;
+    }
+}
+
+table.price-table-horizontal
+{
+    
+    tr > td
+    {
+        vertical-align: middle;
+        background: #FFC000;
+        border-color: #FFF;
+        &:first-child
+        {
+            background: #FEE433;
+            font-weight: bold;
+        }
+    }
+}

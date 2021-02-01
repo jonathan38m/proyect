@@ -1,0 +1,46 @@
+//---------------------------------------------------------BANNER---------------------------------------------
+
+h3.caption-banner{
+  font-size: 17px;
+  background-color: #FFF;
+  padding: 10px;
+  border-left: 10px solid #EEC73A;
+  margin: 0;
+  width: auto;
+  color: #191919;
+  max-width: 47%;
+}
+.btn-banner
+{
+  margin-top: 10px;
+}
+
+
+//---------------------------------------------------------OUR COURSES---------------------------------------------
+
+
+.our-courses
+{
+  & > [class*="col-"]{
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+
+
+//-----------------------------------------------------------REVIEWS--------------------------------------------------
+
+#carousel-testimonial {
+  min-height: 400px;
+  .carousel-caption
+  {
+    position: relative;
+    color: $body-color;
+    left: 0;
+    top: 0;
+  }
+  .carousel-indicators li{
+    background-color: #8c8b8b;
+  }
+}
+  
